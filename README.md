@@ -1,22 +1,25 @@
-# Lab 2 - Landing page
+# 🚀 Project X - Landing Page
 
-Create a web page for your/friends/relatives business (example: car-rent, cookies-shop, crypto-scam)
+Welcome to the **Project X Landing Page**, designed to invite and onboard referred friends to join our initiative. This modern and responsive webpage provides an engaging user experience with smooth navigation, a call to action, and an email subscription form.
 
-## Customer requirements
+## 🌟 Features
+✅ Smooth scrolling navigation  
+✅ Animated image appearance effect  
+✅ Clean and responsive design  
+✅ Email input field for referrals  
+✅ Deployed for easy access  
 
-- Some form of navigation to sections (links, buttons)
-- Call to action
-- At least 4 sections ([see examples](https://webflow.com/blog/high-converting-landing-page))
-- Pleasant to the eyes
+## 📸 Screenshots
+![Homepage Screenshot](images/homepage.png)  
+![Call to Action](images/call-to-action.png)  
 
-## Dev requirements
+## 🔗 Live Demo
+🔗 **[View the live website here](https://tum-web-lab2-zeta.vercel.app)**  
 
-- Use vanilla CSS and HTML (no frameworks)
-- Have a decent git history (no one commit)
-- The page should be deployed on a free hosting service (example: GitHub Pages, Vercel, Netlify)
-- Project repo should have a README with a short description of the landing page topic, screenshots, and a link to the live demo
+*(Replace this link with your actual deployed URL, e.g., GitHub Pages, Vercel, or Netlify.)*
 
-## Other requirements:
+## 🚀 Getting Started
 
-- For potential maximal mark, a WIP version should be submitted during the class
-- Use index.html, reset.css
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/VintusS/tum-web-lab2
