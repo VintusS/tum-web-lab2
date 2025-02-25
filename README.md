@@ -16,7 +16,7 @@ Welcome to the **Project X Landing Page**, designed to invite and onboard referr
 ## 🔗 Live Demo
 🔗 **[View the live website here](https://tum-web-lab2-zeta.vercel.app)**  
 
-*(Replace this link with your actual deployed URL, e.g., GitHub Pages, Vercel, or Netlify.)*
+🔗 **[View the demo recording here](https://drive.google.com/file/d/1W696nA1tE2Nle_t5fjxuB2oDh9JTC8CK/view?usp=sharing)**
 
 ## 🚀 Getting Started
 
