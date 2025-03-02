@@ -125,35 +125,69 @@ box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
-nav ul {
-    flex-direction: column;
-    gap: 10px;
-}
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
 
-#features ul {
-    flex-direction: column;
-}
+    #features ul {
+        flex-direction: column;
+    }
 
-.testimonial {
-    width: 95%;
-}
+    .testimonial {
+        width: 95%;
+    }
 
-input, button {
-    width: 100%;
-    margin-bottom: 10px;
-}
+    input, button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+    
+    .cta-button {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+        padding: 15px;
+        font-size: 1.1rem;
+    }
+    
+    section img {
+        max-width: 100%;    
+    }
+    
+    #features ul li {
+        margin-bottom: 15px;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 5px;
+    }
+    
+    .testimonial img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
-h1 {
-    font-size: 1.5rem;
-}
+    h1 {
+        font-size: 1.5rem;
+    }
 
-h2 {
-    font-size: 1.3rem;
-}
+    h2 {
+        font-size: 1.3rem;
+    }
 
-section {
-    padding: 30px 15px;
-}
+    section {
+        padding: 30px 15px;
+    }
 }
