@@ -13,14 +13,14 @@
 
     <header>
         <h1>Project X</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#join">Join</a></li>
+        <nav aria-label="Main navigation">
+            <ul class="flex flex-col md:flex-row justify-center gap-4 md:gap-8">
+                <li><a href="#about" class="text-white font-bold hover:text-gray-300 focus:outline-none focus:underline">About</a></li>
+                <li><a href="#features" class="text-white font-bold hover:text-gray-300 focus:outline-none focus:underline">Features</a></li>
+                <li><a href="#testimonials" class="text-white font-bold hover:text-gray-300 focus:outline-none focus:underline">Testimonials</a></li>
+                <li><a href="#team" class="text-white font-bold hover:text-gray-300 focus:outline-none focus:underline">Our Team</a></li>
+                <li><a href="#faq" class="text-white font-bold hover:text-gray-300 focus:outline-none focus:underline">FAQ</a></li>
+                <li><a href="#join" class="text-white font-bold hover:text-gray-300 focus:outline-none focus:underline">Join</a></li>
             </ul>
         </nav>
     </header>
@@ -103,9 +103,14 @@
     <section id="join">
         <h2>Get Early Access</h2>
         <p>Enter your email to receive exclusive updates and join our growing community.</p>
-        <form action="#" method="POST">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Sign Up</button>
+        <form action="#" method="POST" class="w-full max-w-md mx-auto">
+            <label for="email" class="sr-only">Email address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required 
+                class="w-full md:w-auto px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button type="submit" aria-label="Sign up" 
+                class="w-full md:w-auto mt-2 md:mt-0 px-6 py-2 bg-purple-700 text-white rounded-r-lg hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                Sign Up
+            </button>
         </form>
     </section>
 
@@ -114,9 +119,9 @@
         <section id="quick-access" class="mobile-only">
         <h2>Quick Access</h2>
             <div class="quick-buttons">
-                <a href="#join" class="quick-button">Join Now</a>
-                <a href="#about" class="quick-button">Learn More</a>
-                <a href="#features" class="quick-button">See Features</a>
+                <a href="#join" class="bg-white text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition duration-300 inline-block">Join Now</a>
+                <a href="#about" class="bg-white text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition duration-300 inline-block">Learn More</a>
+                <a href="#features" class="bg-white text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition duration-300 inline-block">See Features</a>
             </div>
         </section>
     
