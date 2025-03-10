@@ -11,8 +11,16 @@ Welcome to the **Project X Landing Page**, designed to invite and onboard referr
 ✅ Fully responsive layout for mobile and desktop  
 ✅ Interactive robot mascot with animations  
 ✅ Mobile-specific quick access section  
+✅ **NEW: Tailwind CSS integration for modern styling**
 
 ## 🆕 Latest Updates
+### Tailwind CSS Integration (Lab 4)
+- Added Tailwind CSS framework via CDN
+- Redesigned hero section with Tailwind's gradient and typography classes
+- Rebuilt features section with responsive grid layout and card components
+- Enhanced visual appeal with shadows, hover effects, and color schemes
+- Improved responsiveness using Tailwind's built-in breakpoint system
+
 ### Responsive Design
 - Optimized layout for various screen sizes
 - Enhanced mobile navigation
@@ -37,6 +45,8 @@ Welcome to the **Project X Landing Page**, designed to invite and onboard referr
 🔗 **[View the demo recording for second laboratory here](https://drive.google.com/file/d/1W696nA1tE2Nle_t5fjxuB2oDh9JTC8CK/view?usp=sharing)**
 
 🔗 **[View the demo recording for third laboratory here](https://drive.google.com/file/d/1qQoPWclOZIm_qRWckhCLVSGzEtKFLXa9/view?usp=sharing)**
+
+🔗 **[View the demo recording for fourth laboratory (Tailwind CSS) here](YOUR_NEW_LINK_HERE)**
 
 ## 🚀 Getting Started
 
